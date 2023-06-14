@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/_BS1h0pS)
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=11305914&assignment_repo_type=AssignmentRepo)
 # Project Week 1: To-do list application
 ## Introduction
@@ -81,7 +82,7 @@ Note: The styling for all pages are provided for you. However, feel free to play
 3. In Home.js file:
   + Create a list with the name `todos` inside this.state in the constructor()
   + Inside the render() function replace the `p` tag with both Todos and AddTodo components like so:
-    + `<Todos todos={make your change } />`. Hint: Replae "make your change" with current todo list state. Remember to use the `this` keyword
+    + `<Todos todos={make your change } />`. Hint: Replace "make your change" with current todo list state. Remember to use the `this` keyword
     + `<AddTodo addTodo={make your change} />`. Hint: replace make your change with addTodo() function. Remember to use the `this` keyword
 
 
