@@ -82,7 +82,7 @@ Note: The styling for all pages are provided for you. However, feel free to play
 3. In Home.js file:
   + Create a list with the name `todos` inside this.state in the constructor()
   + Inside the render() function replace the `p` tag with both Todos and AddTodo components like so:
-    + `<Todos todos={make your change } />`. Hint: Replae "make your change" with current todo list state. Remember to use the `this` keyword
+    + `<Todos todos={make your change } />`. Hint: Replace "make your change" with current todo list state. Remember to use the `this` keyword
     + `<AddTodo addTodo={make your change} />`. Hint: replace make your change with addTodo() function. Remember to use the `this` keyword
 
 

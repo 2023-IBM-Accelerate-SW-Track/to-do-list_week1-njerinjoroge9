@@ -23,7 +23,9 @@ test('test that App component renders', () => {
 test('test that new-item-button is a button', () => {
   render(<App/>, container);
   const element = screen.getByTestId('new-item-button');
-  expect(element.innerHTML.toLowerCase().includes("button")).toBe(true)
+  //expect(element.innerHTML.toLowerCase().includes("button")).toBe(true)
+  expect(element.tagName.toLowerCase()).toBe("button"); //more reliable way of testing if it is a button
+
 });
 
 test('test that new-item-input is an input ', () => {
